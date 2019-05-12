@@ -1,13 +1,13 @@
 ---
 templateKey: navbar
 menuItems:
-  - label: home
+  - label: Home
     linkType: internal
     linkURL: /
-  - label: about
+  - label: JP_Stripesについて
     linkType: internal
     linkURL: /about
-  - label: past meetups
+  - label: 過去のイベント
     linkType: internal
     linkURL: /meetups
 ---
