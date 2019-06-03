@@ -12,6 +12,7 @@ presenters:
         linkURL: 'https://connect2019.jpstripes.com/'
     name: カンファレンススピーカー
     presentationTitle: タイムテーブル参照
+    image: /img/jp_stripe_logo.jpg
     text: >-
       タイムテーブル参照
 location:
