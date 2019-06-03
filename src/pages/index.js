@@ -19,9 +19,11 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       <section className="header">
         <div className="header-container  container">
           {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
-          <h3 className="header-tagline">
-            <span className="header-taglinePart">{home.title}</span>
-          </h3>
+        </div>
+      </section>
+      <section className="upcomingMeetup section" style={{background: '#2d3047', color: '#e6e6e6'}}>
+        <div className="upcomingMeetup-container container">
+          <h2 className="upcomingMeetup-title">{home.title}</h2>
         </div>
       </section>
       <section className="upcomingMeetup  section">

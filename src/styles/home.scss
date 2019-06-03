@@ -2,7 +2,7 @@
 @import "./mixins.scss";
 
 .header {
-  height: 450px;
+  // height: 450px;
   background-color: $background-medium;
 
   @include respond-to("medium") {
@@ -13,28 +13,13 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 0;
 
     @include respond-to("small") {
       flex-direction: row;
       justify-content: space-around;
-    }
-  }
-
-  &-image {
-    height: 150px;
-    margin-bottom: 30px;
-
-    @include respond-to("small") {
-      height: 200px;
-      margin-bottom: 0;
-    }
-
-    @include respond-to("medium") {
-      height: 300px;
     }
   }
 
