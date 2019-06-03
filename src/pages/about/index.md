@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 title: Wakanda JavaScript Developer Meetup
+description: ""
 mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
   imageAlt: Wakanda JavaScript developer presenting at a meetup.

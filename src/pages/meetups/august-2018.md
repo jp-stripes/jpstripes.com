@@ -1,6 +1,7 @@
 ---
 templateKey: meetup
 title: August 2018
+description: ""
 date: 2018-08-14T23:00:00.000Z
 presenters:
   - image: /img/ramy-kabalan-796973-unsplash.jpg

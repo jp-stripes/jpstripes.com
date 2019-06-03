@@ -2,12 +2,7 @@
 @import "./mixins.scss";
 
 .header {
-  // height: 450px;
   background-color: $background-medium;
-
-  @include respond-to("medium") {
-    height: 575px;
-  }
 
   &-container {
     display: flex;

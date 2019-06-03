@@ -1,6 +1,7 @@
 ---
 templateKey: past-meetups-page
 title: Past Meetups
+description: ""
 path: /meetups
 seo:
   browserTitle: Past Meetups | JS Wakanda

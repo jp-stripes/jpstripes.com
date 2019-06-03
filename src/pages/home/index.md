@@ -3,7 +3,8 @@ templateKey: home-page
 headerImage:
   image: /img/jp_stripe.png
   imageAlt: JavaScript Wakandas
-title: Meet other JavaScript Developers in Wakanda
+title: JP_Stripes
+description: オンライン決済プラットフォーム Stripe のユーザーコミュニティ
 upcomingMeetupHeading: Upcoming Meetup
 noUpcomingMeetupText: Details to be announced.
 mapsNote: Clicking the pin opens Google Maps in a new tab.

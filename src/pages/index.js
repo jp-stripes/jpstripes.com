@@ -24,6 +24,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       <section className="upcomingMeetup section" style={{background: '#2d3047', color: '#e6e6e6'}}>
         <div className="upcomingMeetup-container container">
           <h2 className="upcomingMeetup-title">{home.title}</h2>
+          <p>{home.description}</p>
         </div>
       </section>
       <section className="upcomingMeetup  section">
@@ -180,6 +181,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            description
             headerImage {
               image
               imageAlt
