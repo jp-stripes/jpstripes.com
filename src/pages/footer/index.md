@@ -1,7 +1,7 @@
 ---
 templateKey: footer
 logoImage:
-  image: /img/jp_stripe.png
+  image: /img/jp_stripe_logo.png
   imageAlt: JP_Stripes
   tagline: JP_Stripes
 socialLinks:

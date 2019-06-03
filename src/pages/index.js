@@ -6,7 +6,7 @@ import isAfter from "date-fns/is_after";
 
 import Layout from "../components/Layout";
 import Map from "../components/Map";
-import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
+import HeadshotPlaceholder from "../img/jp_stripe_logo.png";
 import CustomLink from "../components/CustomLink";
 import "../styles/home.scss";
 

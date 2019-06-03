@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "../styles/meetup.scss";
 
-import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
+import HeadshotPlaceholder from "../img/jp_stripe_logo.png";
 
 class MeetupTemplate extends Component {
   render() {
