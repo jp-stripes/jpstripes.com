@@ -1,25 +1,21 @@
 ---
 templateKey: about-page
-title: Wakanda JavaScript Developer Meetup
-description: ""
+title: JP_Stripes
+description: オンライン決済プラットフォーム Stripe のユーザーコミュニティ
 mainImage:
-  image: /img/teemu-paananen-376238-unsplash.jpg
-  imageAlt: Wakanda JavaScript developer presenting at a meetup.
+  image: /img/connect2019.jpg
+  imageAlt: JP_Stripeイベントの様子
 gallery:
-  - image: /img/neonbrand-509131-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a meetup.
-  - image: /img/jakob-dalbjorn-730178-unsplash.jpg
-    imageAlt: Wakanda JavaScript developer presenting at a meetup.
-  - image: /img/annie-spratt-608001-unsplash.jpg
-    imageAlt: Wakanda developers working together at a table.
+  - image: /img/IMG_0550.jpg
+    imageAlt: JP_Stripeイベントの様子
+  - image: /img/IMG_0563.jpg
+    imageAlt: JP_Stripeイベントの様子
+  - image: /img/IMG_0564.jpg
+    imageAlt: JP_Stripeイベントの様子
 developerGroups: |-
-  ## Other Wakanda Developer Groups
+  ## Join our meetup
 
-  * [React & React Native Meetup](https://www.google.com)
-  * [Python Meetup](https://www.google.com)
-  * [Google Developer Meetup](https://www.google.com)
-  * [Vue.js Meetup](https://www.google.com)
-  * [Ruby Meetup](https://www.google.com)
+  * [JP_Stripes（Eventregistへジャンプします）](https://eventregist.com/p/JP_Stripes)
 organizers:
   title: Group Organizers
   gallery:
@@ -30,13 +26,14 @@ organizers:
       imageAlt: Tom Hanks
       name: Tom Hanks
 seo:
-  browserTitle: About | JavaScript Wakanda
+  browserTitle: About | JP_Stripes
   description: >-
-    JavaScript Wakanda is a meetup group that holds monthly meetups where
-    JavaScript developers get together for presentations and to meet others in
-    the community.
-  title: About | JS Wakanda
+    JP_Stripesはオンライン決済プラットフォームである。Stripeのユーザーコミュニティです。
+    東京・京都・広島・福岡・松山・札幌など日本各地で開催されており、Stripeのサービスに関する内容だけでなく、  
+    キャッシュレスに関する取り組みなど、幅広いテーマについて触れることができる場です。
+  title: About | JP_Stripes
 ---
 ## Sharing Ideas and Meeting Others
 
-JS Wakanda is a user group run by volunteers. We meet in borrowed spaces, graciously provided by different companies and organisations. Our purpose is to provide a place where our members have a good time talking about programming, sharing their knowledge and meeting other passionate folks. We keep it friendly, inclusive and positive.
+JP_Stripesはオンライン決済プラットフォームである。Stripeのユーザーコミュニティです。  
+東京・京都・広島・福岡・松山・札幌など日本各地で開催されており、Stripeのサービスに関する内容だけでなく、キャッシュレスに関する取り組みなど、幅広いテーマについて触れることができる場です。

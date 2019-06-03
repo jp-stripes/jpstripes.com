@@ -1,7 +1,7 @@
 ---
 templateKey: navbar
 menuItems:
-  - label: Home
+  - label: Home / 開催予定
     linkType: internal
     linkURL: /
   - label: JP_Stripesについて

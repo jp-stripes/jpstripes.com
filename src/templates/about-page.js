@@ -3,14 +3,11 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import ReactMarkdown from "react-markdown";
 import Helmet from "react-helmet";
-
 import Layout from "../components/Layout";
 import HTMLContent from "../components/Content";
 import "../styles/about-page.scss";
 
-export const AboutPageTemplate = props => {
-  const { page } = props;
-
+export const AboutPageTemplate = ({page}) => {
   return (
     <article className="about">
       <div className="about-container  container">
@@ -44,6 +41,7 @@ export const AboutPageTemplate = props => {
           <ReactMarkdown source={page.frontmatter.developerGroups} />
         </div>
       </section>
+      {/**
       <section className="section  organizers  about-organizers">
         <div className="container  organizers-container">
           <h2 className="organizers-title">{page.frontmatter.organizers.title}</h2>
@@ -61,6 +59,7 @@ export const AboutPageTemplate = props => {
           </ul>
         </div>
       </section>
+       */}
     </article>
   );
 };
