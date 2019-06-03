@@ -5,25 +5,24 @@ headerImage:
   imageAlt: JavaScript Wakandas
 title: JP_Stripes
 description: オンライン決済プラットフォーム Stripe のユーザーコミュニティ
-upcomingMeetupHeading: Upcoming Meetup
-noUpcomingMeetupText: Details to be announced.
-mapsNote: Clicking the pin opens Google Maps in a new tab.
+upcomingMeetupHeading: 開催予定のイベント
+noUpcomingMeetupText: 直近ではイベントの開催がない様子です。
+mapsNote: クリックすると、新しいタブでGoogle Mapを開きます
 callToActions:
   firstCTA:
-    heading: Past Meetups
+    heading: 過去のイベント
     linkType: internal
     linkURL: /meetups
-    subHeading: Look at what topics were presented at past meetups.
+    subHeading: これまでに開催したイベント一覧
   secondCTA:
-    heading: Volunteer to Present
+    heading: オンラインコミュニティ
     linkType: external
-    linkURL: 'mailto:contact@js-wakanda.org'
-    subHeading: Want to present at an upcoming meetup? Contact us.
+    linkURL: 'https://www.facebook.com/groups/1826257457627959'
+    subHeading: Facebookグループにて、イベントの企画やちょっとした質問などの交流ができます。
 seo:
-  browserTitle: JS Wakanda
+  browserTitle: JP_Stripes
   description: >-
-    JavaScript meetup group in Wakanda where JavaScript developers get together
-    for presentations and to meet others in the community.
-  title: JavaScript Wakanda
+    オンライン決済プラットフォーム Stripe のユーザーコミュニティ
+  title: JP_Stripes | オンライン決済プラットフォーム Stripe のユーザーコミュニティ
 ---
 

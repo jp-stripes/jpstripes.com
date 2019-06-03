@@ -41,6 +41,9 @@ export const FooterTemplate = ({ data }) => {
           )}
         </div>
         <div className="footer-bottom">
+            <small>
+              The website made by a <a href="https://www.gatsbyjs.org/starters/robertcoopercode/gatsby-netlify-cms/"> Gatsby starter template</a>.Made in Canada
+            </small>
           <div className="footer-flag">
             <span role="img" aria-label="Made in Canada">
               🇨🇦

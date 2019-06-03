@@ -14,10 +14,10 @@ class MeetupTemplate extends Component {
         <h2 className="meetup-title">{this.props.meetup.title}</h2>
         <div className="meetup-meta">
           <p className="meetup-metaField  meetup-metaField--date">
-            <span className="meetup-label">Date:</span> {this.props.meetup.formattedDate}
+            <span className="meetup-label">開催日:</span> {this.props.meetup.formattedDate}
           </p>
           <p className="meetup-metaField  meetup-metaField--location">
-            <span className="meetup-label">Location:</span> {this.props.meetup.location.name}
+            <span className="meetup-label">会場:</span> {this.props.meetup.location.name}
           </p>
         </div>
         <div className="meetup-presenters">

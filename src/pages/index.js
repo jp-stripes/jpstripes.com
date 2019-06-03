@@ -33,11 +33,11 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
           {upcomingMeetup ? (
             <>
               <p className="upcomingMeetup-detail  upcomingMeetup-detail--date">
-                <span className="upcomingMeetup-detailLabel">Date: </span>
+                <span className="upcomingMeetup-detailLabel">開催日: </span>
                 {upcomingMeetup.formattedDate}
               </p>
               <p className="upcomingMeetup-detail  upcomingMeetup-detail--location">
-                <span className="upcomingMeetup-detailLabel">Location: </span>
+                <span className="upcomingMeetup-detailLabel">会場: </span>
                 {upcomingMeetup.location.name}
               </p>
               {presenters.length > 0 && (
