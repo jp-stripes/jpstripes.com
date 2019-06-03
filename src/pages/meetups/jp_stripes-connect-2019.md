@@ -12,6 +12,8 @@ presenters:
         linkURL: 'https://connect2019.jpstripes.com/'
     name: カンファレンススピーカー
     presentationTitle: タイムテーブル参照
+    text: >-
+      タイムテーブル参照
 location:
   mapsLatitude: 34.729305
   mapsLink: 'https://goo.gl/maps/z26rV7oXRKuRy5PR6'
