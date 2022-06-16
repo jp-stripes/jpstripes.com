@@ -1,10 +1,7 @@
 import dayjs from 'dayjs'
 import { FC } from 'react'
 import { ConnpassEvent } from '../../lib/api/connpass'
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
-}
+import { classNames } from '../../lib/classNames'
 
 const EventDate: FC<Pick<ConnpassEvent, 'started_at' | 'ended_at'>> = ({
   started_at,

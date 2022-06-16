@@ -1,8 +1,9 @@
 import { FC } from 'react'
 
 const navigation = [
-  { name: 'About', href: '#' },
+  { name: 'Home', href: '/' },
   { name: 'Events', href: '#' },
+  { name: 'Learn', href: '/learn' },
 ]
 
 export const Header: FC = () => {
