@@ -26,11 +26,7 @@ export const getStaticProps: GetStaticProps<{
   const { events } = await listJPStripesConnpassEvents('order=2&count=30')
   return {
     props: {
-      events: events
-        .filter((event) => {
-          return dayjs(event.started_at).diff(dayjs()) > 0
-        })
-        .reverse(),
+      events: events,
     },
   }
 }

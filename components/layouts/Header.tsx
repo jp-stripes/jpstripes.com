@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import { FC } from 'react'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Events', href: '#' },
+  { name: 'Events', href: '/events' },
   { name: 'Learn', href: '/learn' },
 ]
 
@@ -18,23 +19,23 @@ export const Header: FC = () => {
             </a>
             <div className='hidden ml-10 space-x-8 lg:block'>
               {navigation.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className='text-base font-medium text-white hover:text-indigo-50'
-                >
-                  {link.name}
-                </a>
+                <Link key={link.name} href={link.href} passHref>
+                  <a className='text-base font-medium text-white hover:text-indigo-50'>
+                    {link.name}
+                  </a>
+                </Link>
               ))}
             </div>
           </div>
           <div className='ml-10 space-x-4'>
+            {/*}
             <a
               href='#'
               className='inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75'
             >
               Discord
             </a>
+            */}
             <a
               href='https://github.com/jp-stripes'
               target='_blank'

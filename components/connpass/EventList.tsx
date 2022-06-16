@@ -14,6 +14,15 @@ const EventDate: FC<Pick<ConnpassEvent, 'started_at' | 'ended_at'>> = ({
   )
 }
 
+const EventLabel: FC<Pick<ConnpassEvent, 'started_at'>> = ({ started_at: startedAt }) => {
+  if (dayjs(startedAt).diff(dayjs()) > 0) return null
+  return (
+    <span className='inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800'>
+      終了済
+    </span>
+  )
+}
+
 export const ConnpassEventList: FC<{
   events: ConnpassEvent[]
 }> = ({ events }) => {
@@ -21,8 +30,8 @@ export const ConnpassEventList: FC<{
     <div className='px-4 sm:px-6 lg:px-8'>
       <div className='sm:flex sm:items-center'>
         <div className='sm:flex-auto'>
-          <h1 className='text-xl font-semibold text-gray-900'>開催予定イベント</h1>
-          <p className='mt-2 text-sm text-gray-700'></p>
+          <h1 className='text-xl font-semibold text-gray-900'>イベント予定表</h1>
+          {/*<p className='mt-2 text-sm text-gray-700'></p> */}
         </div>
         <div className='mt-4 sm:mt-0 sm:ml-16 sm:flex-none'>
           <a
@@ -35,7 +44,7 @@ export const ConnpassEventList: FC<{
           </a>
         </div>
       </div>
-      <div className='-mx-4 mt-10 ring-1 ring-gray-300 sm:-mx-6 md:mx-0 md:rounded-lg'>
+      <div className='-mx-4 mt-6 ring-1 ring-gray-300 sm:-mx-6 md:mx-0 md:rounded-lg'>
         <table className='min-w-full divide-y divide-gray-300'>
           <thead>
             <tr>
@@ -75,6 +84,7 @@ export const ConnpassEventList: FC<{
                     'relative py-4 pl-4 sm:pl-6 pr-3 text-sm',
                   )}
                 >
+                  <EventLabel {...event} />
                   <div className='font-medium text-gray-900'>{event.title}</div>
                   <div className={'hidden px- py-1.5 text-sm text-gray-500 lg:table-cell'}>
                     {event.catch}
