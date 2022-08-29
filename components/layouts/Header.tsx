@@ -36,6 +36,15 @@ export const Header: FC = () => {
               Discord
             </a>
             */}
+        
+            <a
+              href='https://www.youtube.com/channel/UChvvYQvwWWpoarSKwwwMxAA'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='inline-block bg-indigo-500 py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75'
+            >
+              YouTube
+            </a>
             <a
               href='https://github.com/jp-stripes'
               target='_blank'
